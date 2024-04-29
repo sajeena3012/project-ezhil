@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Comic Sans MS, Comic Sans, cursive
+}
+
+/* Header Styles */
+header.dark-theme {
+    background-color: #1e1e1e;
+    color:#995400;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust height as needed */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Change color on hover */
+}
+/* Hero Section Styles */
+.hero {
+    background-image: url('ezhilorange.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffc107;
+    color: #1e1e1e;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff8f00; /* Darken the color on hover */
+}
+/* Product Showcase Section Styles */
+.product-showcase {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.product-showcase .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details {
+    max-width: 400px;
+}
+
+.product-details h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-details p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Ingredient Section Styles */
+.ingredient-section {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 100px 0 50px;
+    margin-top: -50px;
+}
+
+.ingredient-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.ingredient {
+    text-align: center;
+}
+
+.ingredient img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.ingredient img {
+    width: 100%;
+    max-width: 200px; /* Adjust as needed */
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.ingredient h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ingredient p {
+    font-size: 16px;
+}
+/* Testimonials Section Styles */
+.testimonials {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.testimonials .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.testimonial span {
+    font-weight: bold;
+}
+
+/* About Us Section Styles */
+.about-us {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.about-us .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Contact Us Section Styles */
+.contact-us {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.contact-us .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-us h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-form form textarea {
+    height: 150px;
+}
+
+.contact-form form button {
+    background-color: #ffc107;
+    color: #1e1e1e;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form form button:hover {
+    background-color: #ff8f00; /* Darken the color on hover */
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style-type: none;
+}
+
+.contact-info ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Footer Section Styles */
+.footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 50px; /* Adjust height as needed */
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-info p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-info p:first-child {
+    margin-bottom: 10px;
+}
